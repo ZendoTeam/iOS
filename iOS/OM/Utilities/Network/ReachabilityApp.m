@@ -36,7 +36,6 @@ Copyright (C) 2014 Apple Inc. All Rights Reserved.
     self.wifiReachability = [Reachability reachabilityForLocalWiFi];
 	[self.wifiReachability startNotifier];
 	[self updateInterfaceWithReachability:self.wifiReachability];
-    
 }
 
 

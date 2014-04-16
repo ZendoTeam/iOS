@@ -21,9 +21,9 @@
     _iPad = ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad);
     
     // FETCH
-    [[UIApplication sharedApplication] setMinimumBackgroundFetchInterval:UIApplicationBackgroundFetchIntervalMinimum];
-    
-    [[ZenBT sharedStore] startScanning];
+//    [[UIApplication sharedApplication] setMinimumBackgroundFetchInterval:UIApplicationBackgroundFetchIntervalMinimum];
+//    
+//    [[ZenBT sharedStore] startScanning];
     
     
     return YES;

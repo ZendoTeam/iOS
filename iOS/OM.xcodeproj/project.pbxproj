@@ -40,10 +40,21 @@
 		55EEEAC018CF61E600B179CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55EEEABE18CF61E600B179CF /* InfoPlist.strings */; };
 		55EEEAC218CF61E600B179CF /* OMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55EEEAC118CF61E600B179CF /* OMTests.m */; };
 		55EEEACD18CF633500B179CF /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55EEEACC18CF633500B179CF /* WelcomeViewController.m */; };
-		55EEEAD018CF638800B179CF /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55EEEACF18CF638800B179CF /* LoginViewController.m */; };
 		55EEEAD318CF7A6500B179CF /* CreateAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55EEEAD218CF7A6500B179CF /* CreateAccountViewController.m */; };
 		55EEEAD718CF863300B179CF /* ValidationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55EEEAD618CF863300B179CF /* ValidationViewController.m */; };
 		55EEEADA18CF87A900B179CF /* PasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55EEEAD918CF87A900B179CF /* PasswordViewController.m */; };
+		6F2EE7B118FD7B3600242706 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2EE7B018FD7B3600242706 /* Tools.m */; };
+		6F547DBF18FD8B9D0077884D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F547DBE18FD8B9D0077884D /* LoginViewController.m */; };
+		6F547DC218FD8D6D0077884D /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F547DC118FD8D6D0077884D /* LoginView.m */; };
+		6F547DC418FD8E9E0077884D /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F547DC318FD8E9E0077884D /* LoginView.xib */; };
+		6F547DC818FDA1D30077884D /* CreateAccountView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F547DC718FDA1D30077884D /* CreateAccountView.m */; };
+		6F547DCA18FDA1EB0077884D /* CreateAccountView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F547DC918FDA1EB0077884D /* CreateAccountView.xib */; };
+		6F547DD418FDB8160077884D /* ResetPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F547DD318FDB8160077884D /* ResetPasswordView.m */; };
+		6F547DD618FDB8350077884D /* ResetPasswordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F547DD518FDB8350077884D /* ResetPasswordView.xib */; };
+		6F547DD918FDB8D50077884D /* PasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F547DD818FDB8D50077884D /* PasswordView.m */; };
+		6F547DDB18FDB8E50077884D /* PasswordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F547DDA18FDB8E50077884D /* PasswordView.xib */; };
+		6F85C9B318FDC4BC00CD2EF9 /* ValidationPendingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F85C9B218FDC4BC00CD2EF9 /* ValidationPendingView.m */; };
+		6F85C9B518FDC4CC00CD2EF9 /* ValidationPendingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F85C9B418FDC4CC00CD2EF9 /* ValidationPendingView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,14 +123,32 @@
 		55EEEAC118CF61E600B179CF /* OMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OMTests.m; sourceTree = "<group>"; };
 		55EEEACB18CF633500B179CF /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
 		55EEEACC18CF633500B179CF /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
-		55EEEACE18CF638800B179CF /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		55EEEACF18CF638800B179CF /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		55EEEAD118CF7A6500B179CF /* CreateAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateAccountViewController.h; sourceTree = "<group>"; };
 		55EEEAD218CF7A6500B179CF /* CreateAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateAccountViewController.m; sourceTree = "<group>"; };
 		55EEEAD518CF863300B179CF /* ValidationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValidationViewController.h; sourceTree = "<group>"; };
 		55EEEAD618CF863300B179CF /* ValidationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValidationViewController.m; sourceTree = "<group>"; };
 		55EEEAD818CF87A900B179CF /* PasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordViewController.h; sourceTree = "<group>"; };
 		55EEEAD918CF87A900B179CF /* PasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordViewController.m; sourceTree = "<group>"; };
+		6F2EE7AF18FD7B3600242706 /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tools.h; path = Tools/Tools.h; sourceTree = "<group>"; };
+		6F2EE7B018FD7B3600242706 /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tools.m; path = Tools/Tools.m; sourceTree = "<group>"; };
+		6F547DB818FD87D60077884D /* Globals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Globals.h; sourceTree = "<group>"; };
+		6F547DBD18FD8B9D0077884D /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = ViewControllers/LoginViewController/LoginViewController.h; sourceTree = "<group>"; };
+		6F547DBE18FD8B9D0077884D /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ViewControllers/LoginViewController/LoginViewController.m; sourceTree = "<group>"; };
+		6F547DC018FD8D6D0077884D /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginView.h; path = ViewControllers/LoginViewController/LoginView.h; sourceTree = "<group>"; };
+		6F547DC118FD8D6D0077884D /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginView.m; path = ViewControllers/LoginViewController/LoginView.m; sourceTree = "<group>"; };
+		6F547DC318FD8E9E0077884D /* LoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginView.xib; path = ViewControllers/LoginViewController/LoginView.xib; sourceTree = "<group>"; };
+		6F547DC618FDA1D30077884D /* CreateAccountView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreateAccountView.h; path = ViewControllers/LoginViewController/CreateAccountView.h; sourceTree = "<group>"; };
+		6F547DC718FDA1D30077884D /* CreateAccountView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreateAccountView.m; path = ViewControllers/LoginViewController/CreateAccountView.m; sourceTree = "<group>"; };
+		6F547DC918FDA1EB0077884D /* CreateAccountView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CreateAccountView.xib; path = ViewControllers/LoginViewController/CreateAccountView.xib; sourceTree = "<group>"; };
+		6F547DD218FDB8160077884D /* ResetPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResetPasswordView.h; path = ViewControllers/LoginViewController/ResetPasswordView.h; sourceTree = "<group>"; };
+		6F547DD318FDB8160077884D /* ResetPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResetPasswordView.m; path = ViewControllers/LoginViewController/ResetPasswordView.m; sourceTree = "<group>"; };
+		6F547DD518FDB8350077884D /* ResetPasswordView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ResetPasswordView.xib; path = ViewControllers/LoginViewController/ResetPasswordView.xib; sourceTree = "<group>"; };
+		6F547DD718FDB8D50077884D /* PasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PasswordView.h; path = ViewControllers/LoginViewController/PasswordView.h; sourceTree = "<group>"; };
+		6F547DD818FDB8D50077884D /* PasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PasswordView.m; path = ViewControllers/LoginViewController/PasswordView.m; sourceTree = "<group>"; };
+		6F547DDA18FDB8E50077884D /* PasswordView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PasswordView.xib; path = ViewControllers/LoginViewController/PasswordView.xib; sourceTree = "<group>"; };
+		6F85C9B118FDC4BC00CD2EF9 /* ValidationPendingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ValidationPendingView.h; path = ViewControllers/LoginViewController/ValidationPendingView.h; sourceTree = "<group>"; };
+		6F85C9B218FDC4BC00CD2EF9 /* ValidationPendingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ValidationPendingView.m; path = ViewControllers/LoginViewController/ValidationPendingView.m; sourceTree = "<group>"; };
+		6F85C9B418FDC4CC00CD2EF9 /* ValidationPendingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ValidationPendingView.xib; path = ViewControllers/LoginViewController/ValidationPendingView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,7 +210,9 @@
 		55D0BCA318D9DDF700C2E2F8 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				6F2EE7AE18FD7AEB00242706 /* Tools */,
 				55D0BCA418D9DDF700C2E2F8 /* Network */,
+				6F547DB818FD87D60077884D /* Globals.h */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -213,7 +244,6 @@
 		55D0BCD018D9E17400C2E2F8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				55EEEAA518CF61E600B179CF /* Main_iPhone.storyboard */,
 				55EEEAA818CF61E600B179CF /* Main_iPad.storyboard */,
 			);
 			name = Resources;
@@ -222,6 +252,7 @@
 		55EEEA8718CF61E600B179CF = {
 			isa = PBXGroup;
 			children = (
+				55EEEAA518CF61E600B179CF /* Main_iPhone.storyboard */,
 				55EEEA9918CF61E600B179CF /* OM */,
 				55EEEABB18CF61E600B179CF /* OMTests */,
 				55EEEA9218CF61E600B179CF /* Frameworks */,
@@ -296,10 +327,8 @@
 		55EEEAD418CF85F600B179CF /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				55EEEACB18CF633500B179CF /* WelcomeViewController.h */,
-				55EEEACC18CF633500B179CF /* WelcomeViewController.m */,
-				55EEEACE18CF638800B179CF /* LoginViewController.h */,
-				55EEEACF18CF638800B179CF /* LoginViewController.m */,
+				6F2EE7AD18FD7A9E00242706 /* LoginViewController */,
+				6F2EE7AB18FD77B800242706 /* WelcomeViewController */,
 				55EEEAD118CF7A6500B179CF /* CreateAccountViewController.h */,
 				55EEEAD218CF7A6500B179CF /* CreateAccountViewController.m */,
 				55EEEAD518CF863300B179CF /* ValidationViewController.h */,
@@ -310,6 +339,88 @@
 				5559386718FC28F800552459 /* ZenSampleView.m */,
 			);
 			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6F2EE7AB18FD77B800242706 /* WelcomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				55EEEACB18CF633500B179CF /* WelcomeViewController.h */,
+				55EEEACC18CF633500B179CF /* WelcomeViewController.m */,
+			);
+			name = WelcomeViewController;
+			sourceTree = "<group>";
+		};
+		6F2EE7AD18FD7A9E00242706 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6F547DDC18FDB94C0077884D /* ValidationPendingView */,
+				6F547DD118FDB7F60077884D /* ResetPasswordView */,
+				6F547DCB18FDB5BA0077884D /* PasswordView */,
+				6F547DC518FDA1820077884D /* CreateAccountView */,
+				6F547DB918FD8ACD0077884D /* LoginView */,
+				6F547DBD18FD8B9D0077884D /* LoginViewController.h */,
+				6F547DBE18FD8B9D0077884D /* LoginViewController.m */,
+			);
+			name = LoginViewController;
+			sourceTree = "<group>";
+		};
+		6F2EE7AE18FD7AEB00242706 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				6F2EE7AF18FD7B3600242706 /* Tools.h */,
+				6F2EE7B018FD7B3600242706 /* Tools.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		6F547DB918FD8ACD0077884D /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				6F547DC018FD8D6D0077884D /* LoginView.h */,
+				6F547DC118FD8D6D0077884D /* LoginView.m */,
+				6F547DC318FD8E9E0077884D /* LoginView.xib */,
+			);
+			name = LoginView;
+			sourceTree = "<group>";
+		};
+		6F547DC518FDA1820077884D /* CreateAccountView */ = {
+			isa = PBXGroup;
+			children = (
+				6F547DC618FDA1D30077884D /* CreateAccountView.h */,
+				6F547DC718FDA1D30077884D /* CreateAccountView.m */,
+				6F547DC918FDA1EB0077884D /* CreateAccountView.xib */,
+			);
+			name = CreateAccountView;
+			sourceTree = "<group>";
+		};
+		6F547DCB18FDB5BA0077884D /* PasswordView */ = {
+			isa = PBXGroup;
+			children = (
+				6F547DD718FDB8D50077884D /* PasswordView.h */,
+				6F547DD818FDB8D50077884D /* PasswordView.m */,
+				6F547DDA18FDB8E50077884D /* PasswordView.xib */,
+			);
+			name = PasswordView;
+			sourceTree = "<group>";
+		};
+		6F547DD118FDB7F60077884D /* ResetPasswordView */ = {
+			isa = PBXGroup;
+			children = (
+				6F547DD218FDB8160077884D /* ResetPasswordView.h */,
+				6F547DD318FDB8160077884D /* ResetPasswordView.m */,
+				6F547DD518FDB8350077884D /* ResetPasswordView.xib */,
+			);
+			name = ResetPasswordView;
+			sourceTree = "<group>";
+		};
+		6F547DDC18FDB94C0077884D /* ValidationPendingView */ = {
+			isa = PBXGroup;
+			children = (
+				6F85C9B118FDC4BC00CD2EF9 /* ValidationPendingView.h */,
+				6F85C9B218FDC4BC00CD2EF9 /* ValidationPendingView.m */,
+				6F85C9B418FDC4CC00CD2EF9 /* ValidationPendingView.xib */,
+			);
+			name = ValidationPendingView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -361,6 +472,7 @@
 				ORGANIZATIONNAME = Zendo;
 				TargetAttributes = {
 					55EEEA8F18CF61E600B179CF = {
+						DevelopmentTeam = BR5NQT6WAZ;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -396,10 +508,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F547DCA18FDA1EB0077884D /* CreateAccountView.xib in Resources */,
 				55EEEAAA18CF61E600B179CF /* Main_iPad.storyboard in Resources */,
 				55EEEAAF18CF61E600B179CF /* Images.xcassets in Resources */,
 				55EEEAA718CF61E600B179CF /* Main_iPhone.storyboard in Resources */,
+				6F547DDB18FDB8E50077884D /* PasswordView.xib in Resources */,
+				6F547DC418FD8E9E0077884D /* LoginView.xib in Resources */,
 				55EEEA9E18CF61E600B179CF /* InfoPlist.strings in Resources */,
+				6F547DD618FDB8350077884D /* ResetPasswordView.xib in Resources */,
+				6F85C9B518FDC4CC00CD2EF9 /* ValidationPendingView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,29 +536,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				55D0BC9E18D9DDE800C2E2F8 /* ZenElementMotion.m in Sources */,
+				6F2EE7B118FD7B3600242706 /* Tools.m in Sources */,
+				6F547DBF18FD8B9D0077884D /* LoginViewController.m in Sources */,
 				55D0BC9B18D9DDE800C2E2F8 /* ZenElement.m in Sources */,
 				55D0BCDD18DB6D0200C2E2F8 /* ReachabilityApp.m in Sources */,
 				55D0BC9A18D9DDE800C2E2F8 /* ZendoModel.m in Sources */,
 				5559386818FC28F800552459 /* ZenSampleView.m in Sources */,
 				55D0BC9918D9DDE800C2E2F8 /* ZenDevice.m in Sources */,
-				55EEEAD018CF638800B179CF /* LoginViewController.m in Sources */,
 				55EEEACD18CF633500B179CF /* WelcomeViewController.m in Sources */,
 				55D0BCA018D9DDE800C2E2F8 /* ZenElementWater.m in Sources */,
 				55D0BC9C18D9DDE800C2E2F8 /* ZenElementEvent.m in Sources */,
 				55EEEAD318CF7A6500B179CF /* CreateAccountViewController.m in Sources */,
+				6F547DC818FDA1D30077884D /* CreateAccountView.m in Sources */,
 				55EEEADA18CF87A900B179CF /* PasswordViewController.m in Sources */,
 				55D0BCDB18DB6CF100C2E2F8 /* Reachability.m in Sources */,
 				55D0BC9818D9DDE800C2E2F8 /* ZenCamera.m in Sources */,
 				55EEEAD718CF863300B179CF /* ValidationViewController.m in Sources */,
+				6F547DD418FDB8160077884D /* ResetPasswordView.m in Sources */,
 				55D0BCA818D9DDF700C2E2F8 /* ZenNetwork.m in Sources */,
 				556CAB5A18E9C09B0015136E /* ZenElementTable.m in Sources */,
 				55D0BCD618DA469E00C2E2F8 /* ZenBT.m in Sources */,
 				55EEEAA418CF61E600B179CF /* ZenAppDelegate.m in Sources */,
 				55D0BCA118D9DDE800C2E2F8 /* ZenEventTable.m in Sources */,
+				6F547DD918FDB8D50077884D /* PasswordView.m in Sources */,
 				55D0BCA218D9DDE800C2E2F8 /* ZenUser.m in Sources */,
 				55D0BC9D18D9DDE800C2E2F8 /* ZenElementLight.m in Sources */,
 				55D0BC9F18D9DDE800C2E2F8 /* ZenElementTemp.m in Sources */,
+				6F547DC218FD8D6D0077884D /* LoginView.m in Sources */,
 				55EEEAA018CF61E600B179CF /* main.m in Sources */,
+				6F85C9B318FDC4BC00CD2EF9 /* ValidationPendingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +601,7 @@
 				55EEEAA618CF61E600B179CF /* Base */,
 			);
 			name = Main_iPhone.storyboard;
+			path = OM;
 			sourceTree = "<group>";
 		};
 		55EEEAA818CF61E600B179CF /* Main_iPad.storyboard */ = {
@@ -580,12 +704,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Five Interactive, LLC (TASC5GMSV4)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OM/OM-Prefix.pch";
 				INFOPLIST_FILE = "OM/OM-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "9256C116-FE1C-4BD3-AB39-EFFDAB8D2860";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -596,12 +721,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Five Interactive, LLC (TASC5GMSV4)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OM/OM-Prefix.pch";
 				INFOPLIST_FILE = "OM/OM-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "9256C116-FE1C-4BD3-AB39-EFFDAB8D2860";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
