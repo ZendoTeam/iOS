@@ -22,6 +22,4 @@ typedef enum {
 
 @interface ZenElementMotion : ZenElement
 
-@property (nonatomic) MotionEvent type;
-
 @end

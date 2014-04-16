@@ -9,7 +9,7 @@
 #import "ZendoModel.h"
 #import "ZenElementLight.h"
 #import "ZenElementWater.h"
-#import "ZenElementTemp.h"
+#import "ZenElementEnviro.h"
 #import "ZenElementMotion.h"
 #import "ZenEventTable.h"
 #import "ZenElementEvent.h"
@@ -43,31 +43,12 @@ ZenEventTable* t;
 
 -(void)load
 {
-    //
-    // Elements
-    //
-    
-    ZenElementTemp* s1 = [ZenElementTemp new];
-    s1.temp = 75.5;
-    s1.name = @"Temp Sensor #1";
-    
-    ZenElementTemp* s2 = [ZenElementTemp new];
-    s2.temp = 76.5;
-    s2.name = @"Temp Sensor #2";
-    
-    ZenElementMotion* s3 = [ZenElementMotion new];
-    s3.type = 5;
-    s3.name = @"Motion Sensor #1";
-
-    //
-    // Events
-    //
     
     ZenElementEvent* e1 = [ZenElementEvent new];
-    e1.element_serial_no = @"123";
+    [e1 setEventElementID:@"123"];
     
     ZenElementEvent* e2 = [ZenElementEvent new];
-    e2.element_serial_no = @"124";
+    [e2 setEventElementID:@"124"];
     
     //
     // Table

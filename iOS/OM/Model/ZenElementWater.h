@@ -8,18 +8,17 @@
 
 #import "ZenElement.h"
 
+// ZenElementWater - inherits all values from ZenElement
+// Common values for all Water Elements
+
 @interface ZenElementWater : ZenElement
 
-@property (nonatomic) BOOL    state; //open/closed
+-(NSNumber*) getState;
+-(NSNumber*) getTemp;
+-(NSNumber*) getHumidity;
 
-@property (nonatomic) CGFloat temp;
-@property (nonatomic) CGFloat maxTemp;
-@property (nonatomic) CGFloat minTemp;
-
-@property (nonatomic) CGFloat humidity;
-@property (nonatomic) CGFloat maxHumidity;
-@property (nonatomic) CGFloat minHumidity;
-
--(id)init;
+-(void) setState:(NSNumber*)val;
+-(void) setTemp:(NSNumber*)val;
+-(void) setHumidity:(NSNumber*)val;
 
 @end

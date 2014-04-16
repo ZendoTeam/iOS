@@ -8,7 +8,7 @@
 
 #import "ZenElementEvent.h"
 #import "ZenEventTable.h"
-#import "ZenElementTemp.h"
+#import "ZenElementEnviro.h"
 #import "ZenElementMotion.h"
 
 @interface ZenEventTable() {
@@ -56,7 +56,7 @@
 {
     ZenElementEvent* e = [eventTable objectAtIndex:index];
     
-    return  e.element_serial_no;
+    return  e.getEventElementID;
 }
 
 -(void) readCloudEventsWithFilter:(NSString*)query{}

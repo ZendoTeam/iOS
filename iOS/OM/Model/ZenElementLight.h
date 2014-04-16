@@ -8,17 +8,23 @@
 
 #import "ZenElement.h"
 
+// ZenElementLight - inherits all values from ZenElement
+// Common values for all Light Elements
+
 @interface ZenElementLight : ZenElement
 
-@property (nonatomic) BOOL      state; // on/off
+-(NSNumber*) getStatus;
+-(NSNumber*) getLEDStatus;
+-(NSNumber*) getDimLevel;
+-(NSNumber*) getFaultCondition;
+-(NSNumber*) getVoltThreshold;
+-(NSNumber*) getPwrThreshold;
 
-@property (nonatomic) BOOL      ledStatus;
-@property (nonatomic) CGFloat   dimLevel;
-
-@property (nonatomic) CGFloat   faultCondition; //(ok, fault1...4)
-@property (nonatomic) CGFloat   voltThreshold;
-@property (nonatomic) CGFloat   pwrThreshold;
-
--(id)init;
+-(void) setStatus:(NSNumber*)status;
+-(void) setLEDStatus:(NSNumber*)status;
+-(void) setDimLevel:(NSNumber*)level;
+-(void) setFaultCondition:(NSNumber*)value;
+-(void) setVoltThreshold:(NSNumber*)value;
+-(void) setPwrThreshold:(NSNumber*)value;
 
 @end

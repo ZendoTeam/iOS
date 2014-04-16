@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		5559386818FC28F800552459 /* ZenSampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5559386718FC28F800552459 /* ZenSampleView.m */; };
-		556CAB5A18E9C09B0015136E /* ZenElementTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 556CAB5918E9C09B0015136E /* ZenElementTable.m */; };
-		55D0BC9818D9DDE800C2E2F8 /* ZenCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D0BC8318D9DDE800C2E2F8 /* ZenCamera.m */; };
-		55D0BC9918D9DDE800C2E2F8 /* ZenDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D0BC8518D9DDE800C2E2F8 /* ZenDevice.m */; };
-		55D0BC9A18D9DDE800C2E2F8 /* ZendoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D0BC8718D9DDE800C2E2F8 /* ZendoModel.m */; };
-		55D0BC9B18D9DDE800C2E2F8 /* ZenElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D0BC8918D9DDE800C2E2F8 /* ZenElement.m */; };
-		55D0BC9C18D9DDE800C2E2F8 /* ZenElementEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D0BC8B18D9DDE800C2E2F8 /* ZenElementEvent.m */; };
-		55D0BC9D18D9DDE800C2E2F8 /* ZenElementLight.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D0BC8D18D9DDE800C2E2F8 /* ZenElementLight.m */; };
-		55D0BC9E18D9DDE800C2E2F8 /* ZenElementMotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D0BC8F18D9DDE800C2E2F8 /* ZenElementMotion.m */; };
-		55D0BC9F18D9DDE800C2E2F8 /* ZenElementTemp.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D0BC9118D9DDE800C2E2F8 /* ZenElementTemp.m */; };
-		55D0BCA018D9DDE800C2E2F8 /* ZenElementWater.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D0BC9318D9DDE800C2E2F8 /* ZenElementWater.m */; };
-		55D0BCA118D9DDE800C2E2F8 /* ZenEventTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D0BC9518D9DDE800C2E2F8 /* ZenEventTable.m */; };
-		55D0BCA218D9DDE800C2E2F8 /* ZenUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D0BC9718D9DDE800C2E2F8 /* ZenUser.m */; };
+		55A1832418FF251D0077211B /* ZenDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A1830618FF251D0077211B /* ZenDevice.m */; };
+		55A1832518FF251D0077211B /* ZendoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A1830818FF251D0077211B /* ZendoModel.m */; };
+		55A1832618FF251D0077211B /* ZenElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A1830A18FF251D0077211B /* ZenElement.m */; };
+		55A1832718FF251D0077211B /* ZenElementEnviro.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A1830C18FF251D0077211B /* ZenElementEnviro.m */; };
+		55A1832818FF251D0077211B /* ZenElementEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A1830E18FF251D0077211B /* ZenElementEvent.m */; };
+		55A1832918FF251D0077211B /* ZenElementLight.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A1831018FF251D0077211B /* ZenElementLight.m */; };
+		55A1832A18FF251D0077211B /* ZenElementMotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A1831218FF251D0077211B /* ZenElementMotion.m */; };
+		55A1832B18FF251D0077211B /* ZenElementTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A1831418FF251D0077211B /* ZenElementTable.m */; };
+		55A1832D18FF251D0077211B /* ZenElementWater.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A1831818FF251D0077211B /* ZenElementWater.m */; };
+		55A1832E18FF251D0077211B /* ZenEventTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A1831A18FF251D0077211B /* ZenEventTable.m */; };
+		55A1832F18FF251D0077211B /* ZenHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A1831C18FF251D0077211B /* ZenHub.m */; };
+		55A1833018FF251D0077211B /* ZenObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A1831E18FF251D0077211B /* ZenObject.m */; };
+		55A1833118FF251D0077211B /* ZenSmartPlug.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A1832018FF251D0077211B /* ZenSmartPlug.m */; };
+		55A1833218FF251D0077211B /* ZenUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A1832218FF251D0077211B /* ZenUser.m */; };
 		55D0BCA818D9DDF700C2E2F8 /* ZenNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D0BCA618D9DDF700C2E2F8 /* ZenNetwork.m */; };
 		55D0BCD618DA469E00C2E2F8 /* ZenBT.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D0BCD518DA469E00C2E2F8 /* ZenBT.m */; };
 		55D0BCD818DA46B800C2E2F8 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55D0BCD718DA46B800C2E2F8 /* CoreBluetooth.framework */; };
@@ -40,9 +42,6 @@
 		55EEEAC018CF61E600B179CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55EEEABE18CF61E600B179CF /* InfoPlist.strings */; };
 		55EEEAC218CF61E600B179CF /* OMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55EEEAC118CF61E600B179CF /* OMTests.m */; };
 		55EEEACD18CF633500B179CF /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55EEEACC18CF633500B179CF /* WelcomeViewController.m */; };
-		55EEEAD318CF7A6500B179CF /* CreateAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55EEEAD218CF7A6500B179CF /* CreateAccountViewController.m */; };
-		55EEEAD718CF863300B179CF /* ValidationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55EEEAD618CF863300B179CF /* ValidationViewController.m */; };
-		55EEEADA18CF87A900B179CF /* PasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55EEEAD918CF87A900B179CF /* PasswordViewController.m */; };
 		6F2EE7B118FD7B3600242706 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2EE7B018FD7B3600242706 /* Tools.m */; };
 		6F547DBF18FD8B9D0077884D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F547DBE18FD8B9D0077884D /* LoginViewController.m */; };
 		6F547DC218FD8D6D0077884D /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F547DC118FD8D6D0077884D /* LoginView.m */; };
@@ -70,30 +69,34 @@
 /* Begin PBXFileReference section */
 		5559386618FC28F800552459 /* ZenSampleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZenSampleView.h; path = Views/ZenSampleView.h; sourceTree = "<group>"; };
 		5559386718FC28F800552459 /* ZenSampleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZenSampleView.m; path = Views/ZenSampleView.m; sourceTree = "<group>"; };
-		556CAB5818E9C09B0015136E /* ZenElementTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZenElementTable.h; sourceTree = "<group>"; };
-		556CAB5918E9C09B0015136E /* ZenElementTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZenElementTable.m; sourceTree = "<group>"; };
-		55D0BC8218D9DDE800C2E2F8 /* ZenCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZenCamera.h; sourceTree = "<group>"; };
-		55D0BC8318D9DDE800C2E2F8 /* ZenCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZenCamera.m; sourceTree = "<group>"; };
-		55D0BC8418D9DDE800C2E2F8 /* ZenDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZenDevice.h; sourceTree = "<group>"; };
-		55D0BC8518D9DDE800C2E2F8 /* ZenDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZenDevice.m; sourceTree = "<group>"; };
-		55D0BC8618D9DDE800C2E2F8 /* ZendoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZendoModel.h; sourceTree = "<group>"; };
-		55D0BC8718D9DDE800C2E2F8 /* ZendoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZendoModel.m; sourceTree = "<group>"; };
-		55D0BC8818D9DDE800C2E2F8 /* ZenElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZenElement.h; sourceTree = "<group>"; };
-		55D0BC8918D9DDE800C2E2F8 /* ZenElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZenElement.m; sourceTree = "<group>"; };
-		55D0BC8A18D9DDE800C2E2F8 /* ZenElementEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZenElementEvent.h; sourceTree = "<group>"; };
-		55D0BC8B18D9DDE800C2E2F8 /* ZenElementEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZenElementEvent.m; sourceTree = "<group>"; };
-		55D0BC8C18D9DDE800C2E2F8 /* ZenElementLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZenElementLight.h; sourceTree = "<group>"; };
-		55D0BC8D18D9DDE800C2E2F8 /* ZenElementLight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZenElementLight.m; sourceTree = "<group>"; };
-		55D0BC8E18D9DDE800C2E2F8 /* ZenElementMotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZenElementMotion.h; sourceTree = "<group>"; };
-		55D0BC8F18D9DDE800C2E2F8 /* ZenElementMotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZenElementMotion.m; sourceTree = "<group>"; };
-		55D0BC9018D9DDE800C2E2F8 /* ZenElementTemp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZenElementTemp.h; sourceTree = "<group>"; };
-		55D0BC9118D9DDE800C2E2F8 /* ZenElementTemp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZenElementTemp.m; sourceTree = "<group>"; };
-		55D0BC9218D9DDE800C2E2F8 /* ZenElementWater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZenElementWater.h; sourceTree = "<group>"; };
-		55D0BC9318D9DDE800C2E2F8 /* ZenElementWater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZenElementWater.m; sourceTree = "<group>"; };
-		55D0BC9418D9DDE800C2E2F8 /* ZenEventTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZenEventTable.h; sourceTree = "<group>"; };
-		55D0BC9518D9DDE800C2E2F8 /* ZenEventTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZenEventTable.m; sourceTree = "<group>"; };
-		55D0BC9618D9DDE800C2E2F8 /* ZenUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZenUser.h; sourceTree = "<group>"; };
-		55D0BC9718D9DDE800C2E2F8 /* ZenUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZenUser.m; sourceTree = "<group>"; };
+		55A1830518FF251D0077211B /* ZenDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZenDevice.h; sourceTree = "<group>"; };
+		55A1830618FF251D0077211B /* ZenDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZenDevice.m; sourceTree = "<group>"; };
+		55A1830718FF251D0077211B /* ZendoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZendoModel.h; sourceTree = "<group>"; };
+		55A1830818FF251D0077211B /* ZendoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZendoModel.m; sourceTree = "<group>"; };
+		55A1830918FF251D0077211B /* ZenElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZenElement.h; sourceTree = "<group>"; };
+		55A1830A18FF251D0077211B /* ZenElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZenElement.m; sourceTree = "<group>"; };
+		55A1830B18FF251D0077211B /* ZenElementEnviro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZenElementEnviro.h; sourceTree = "<group>"; };
+		55A1830C18FF251D0077211B /* ZenElementEnviro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZenElementEnviro.m; sourceTree = "<group>"; };
+		55A1830D18FF251D0077211B /* ZenElementEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZenElementEvent.h; sourceTree = "<group>"; };
+		55A1830E18FF251D0077211B /* ZenElementEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZenElementEvent.m; sourceTree = "<group>"; };
+		55A1830F18FF251D0077211B /* ZenElementLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZenElementLight.h; sourceTree = "<group>"; };
+		55A1831018FF251D0077211B /* ZenElementLight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZenElementLight.m; sourceTree = "<group>"; };
+		55A1831118FF251D0077211B /* ZenElementMotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZenElementMotion.h; sourceTree = "<group>"; };
+		55A1831218FF251D0077211B /* ZenElementMotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZenElementMotion.m; sourceTree = "<group>"; };
+		55A1831318FF251D0077211B /* ZenElementTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZenElementTable.h; sourceTree = "<group>"; };
+		55A1831418FF251D0077211B /* ZenElementTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZenElementTable.m; sourceTree = "<group>"; };
+		55A1831718FF251D0077211B /* ZenElementWater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZenElementWater.h; sourceTree = "<group>"; };
+		55A1831818FF251D0077211B /* ZenElementWater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZenElementWater.m; sourceTree = "<group>"; };
+		55A1831918FF251D0077211B /* ZenEventTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZenEventTable.h; sourceTree = "<group>"; };
+		55A1831A18FF251D0077211B /* ZenEventTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZenEventTable.m; sourceTree = "<group>"; };
+		55A1831B18FF251D0077211B /* ZenHub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZenHub.h; sourceTree = "<group>"; };
+		55A1831C18FF251D0077211B /* ZenHub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZenHub.m; sourceTree = "<group>"; };
+		55A1831D18FF251D0077211B /* ZenObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZenObject.h; sourceTree = "<group>"; };
+		55A1831E18FF251D0077211B /* ZenObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZenObject.m; sourceTree = "<group>"; };
+		55A1831F18FF251D0077211B /* ZenSmartPlug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZenSmartPlug.h; sourceTree = "<group>"; };
+		55A1832018FF251D0077211B /* ZenSmartPlug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZenSmartPlug.m; sourceTree = "<group>"; };
+		55A1832118FF251D0077211B /* ZenUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZenUser.h; sourceTree = "<group>"; };
+		55A1832218FF251D0077211B /* ZenUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZenUser.m; sourceTree = "<group>"; };
 		55D0BCA518D9DDF700C2E2F8 /* ZenNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZenNetwork.h; sourceTree = "<group>"; };
 		55D0BCA618D9DDF700C2E2F8 /* ZenNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZenNetwork.m; sourceTree = "<group>"; };
 		55D0BCA718D9DDF700C2E2F8 /* ZenNetworkDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZenNetworkDelegate.h; sourceTree = "<group>"; };
@@ -123,12 +126,6 @@
 		55EEEAC118CF61E600B179CF /* OMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OMTests.m; sourceTree = "<group>"; };
 		55EEEACB18CF633500B179CF /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
 		55EEEACC18CF633500B179CF /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
-		55EEEAD118CF7A6500B179CF /* CreateAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateAccountViewController.h; sourceTree = "<group>"; };
-		55EEEAD218CF7A6500B179CF /* CreateAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateAccountViewController.m; sourceTree = "<group>"; };
-		55EEEAD518CF863300B179CF /* ValidationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValidationViewController.h; sourceTree = "<group>"; };
-		55EEEAD618CF863300B179CF /* ValidationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValidationViewController.m; sourceTree = "<group>"; };
-		55EEEAD818CF87A900B179CF /* PasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordViewController.h; sourceTree = "<group>"; };
-		55EEEAD918CF87A900B179CF /* PasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordViewController.m; sourceTree = "<group>"; };
 		6F2EE7AF18FD7B3600242706 /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tools.h; path = Tools/Tools.h; sourceTree = "<group>"; };
 		6F2EE7B018FD7B3600242706 /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tools.m; path = Tools/Tools.m; sourceTree = "<group>"; };
 		6F547DB818FD87D60077884D /* Globals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Globals.h; sourceTree = "<group>"; };
@@ -179,30 +176,34 @@
 		55D0BC8118D9DDE800C2E2F8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				55D0BC8218D9DDE800C2E2F8 /* ZenCamera.h */,
-				55D0BC8318D9DDE800C2E2F8 /* ZenCamera.m */,
-				55D0BC8418D9DDE800C2E2F8 /* ZenDevice.h */,
-				55D0BC8518D9DDE800C2E2F8 /* ZenDevice.m */,
-				55D0BC8618D9DDE800C2E2F8 /* ZendoModel.h */,
-				55D0BC8718D9DDE800C2E2F8 /* ZendoModel.m */,
-				55D0BC8818D9DDE800C2E2F8 /* ZenElement.h */,
-				55D0BC8918D9DDE800C2E2F8 /* ZenElement.m */,
-				55D0BC8C18D9DDE800C2E2F8 /* ZenElementLight.h */,
-				55D0BC8D18D9DDE800C2E2F8 /* ZenElementLight.m */,
-				55D0BC8E18D9DDE800C2E2F8 /* ZenElementMotion.h */,
-				55D0BC8F18D9DDE800C2E2F8 /* ZenElementMotion.m */,
-				55D0BC9018D9DDE800C2E2F8 /* ZenElementTemp.h */,
-				55D0BC9118D9DDE800C2E2F8 /* ZenElementTemp.m */,
-				55D0BC9218D9DDE800C2E2F8 /* ZenElementWater.h */,
-				55D0BC9318D9DDE800C2E2F8 /* ZenElementWater.m */,
-				55D0BC8A18D9DDE800C2E2F8 /* ZenElementEvent.h */,
-				55D0BC8B18D9DDE800C2E2F8 /* ZenElementEvent.m */,
-				55D0BC9418D9DDE800C2E2F8 /* ZenEventTable.h */,
-				55D0BC9518D9DDE800C2E2F8 /* ZenEventTable.m */,
-				556CAB5818E9C09B0015136E /* ZenElementTable.h */,
-				556CAB5918E9C09B0015136E /* ZenElementTable.m */,
-				55D0BC9618D9DDE800C2E2F8 /* ZenUser.h */,
-				55D0BC9718D9DDE800C2E2F8 /* ZenUser.m */,
+				55A1831D18FF251D0077211B /* ZenObject.h */,
+				55A1831E18FF251D0077211B /* ZenObject.m */,
+				55A1830518FF251D0077211B /* ZenDevice.h */,
+				55A1830618FF251D0077211B /* ZenDevice.m */,
+				55A1830918FF251D0077211B /* ZenElement.h */,
+				55A1830A18FF251D0077211B /* ZenElement.m */,
+				55A1830B18FF251D0077211B /* ZenElementEnviro.h */,
+				55A1830C18FF251D0077211B /* ZenElementEnviro.m */,
+				55A1830F18FF251D0077211B /* ZenElementLight.h */,
+				55A1831018FF251D0077211B /* ZenElementLight.m */,
+				55A1831118FF251D0077211B /* ZenElementMotion.h */,
+				55A1831218FF251D0077211B /* ZenElementMotion.m */,
+				55A1831718FF251D0077211B /* ZenElementWater.h */,
+				55A1831818FF251D0077211B /* ZenElementWater.m */,
+				55A1830D18FF251D0077211B /* ZenElementEvent.h */,
+				55A1830E18FF251D0077211B /* ZenElementEvent.m */,
+				55A1831B18FF251D0077211B /* ZenHub.h */,
+				55A1831C18FF251D0077211B /* ZenHub.m */,
+				55A1831F18FF251D0077211B /* ZenSmartPlug.h */,
+				55A1832018FF251D0077211B /* ZenSmartPlug.m */,
+				55A1832118FF251D0077211B /* ZenUser.h */,
+				55A1832218FF251D0077211B /* ZenUser.m */,
+				55A1831918FF251D0077211B /* ZenEventTable.h */,
+				55A1831A18FF251D0077211B /* ZenEventTable.m */,
+				55A1831318FF251D0077211B /* ZenElementTable.h */,
+				55A1831418FF251D0077211B /* ZenElementTable.m */,
+				55A1830718FF251D0077211B /* ZendoModel.h */,
+				55A1830818FF251D0077211B /* ZendoModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -329,12 +330,6 @@
 			children = (
 				6F2EE7AD18FD7A9E00242706 /* LoginViewController */,
 				6F2EE7AB18FD77B800242706 /* WelcomeViewController */,
-				55EEEAD118CF7A6500B179CF /* CreateAccountViewController.h */,
-				55EEEAD218CF7A6500B179CF /* CreateAccountViewController.m */,
-				55EEEAD518CF863300B179CF /* ValidationViewController.h */,
-				55EEEAD618CF863300B179CF /* ValidationViewController.m */,
-				55EEEAD818CF87A900B179CF /* PasswordViewController.h */,
-				55EEEAD918CF87A900B179CF /* PasswordViewController.m */,
 				5559386618FC28F800552459 /* ZenSampleView.h */,
 				5559386718FC28F800552459 /* ZenSampleView.m */,
 			);
@@ -535,35 +530,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55D0BC9E18D9DDE800C2E2F8 /* ZenElementMotion.m in Sources */,
+				55A1832618FF251D0077211B /* ZenElement.m in Sources */,
 				6F2EE7B118FD7B3600242706 /* Tools.m in Sources */,
+				55A1832718FF251D0077211B /* ZenElementEnviro.m in Sources */,
 				6F547DBF18FD8B9D0077884D /* LoginViewController.m in Sources */,
-				55D0BC9B18D9DDE800C2E2F8 /* ZenElement.m in Sources */,
 				55D0BCDD18DB6D0200C2E2F8 /* ReachabilityApp.m in Sources */,
-				55D0BC9A18D9DDE800C2E2F8 /* ZendoModel.m in Sources */,
+				55A1832818FF251D0077211B /* ZenElementEvent.m in Sources */,
+				55A1832518FF251D0077211B /* ZendoModel.m in Sources */,
+				55A1832F18FF251D0077211B /* ZenHub.m in Sources */,
+				55A1833218FF251D0077211B /* ZenUser.m in Sources */,
+				55A1832418FF251D0077211B /* ZenDevice.m in Sources */,
 				5559386818FC28F800552459 /* ZenSampleView.m in Sources */,
-				55D0BC9918D9DDE800C2E2F8 /* ZenDevice.m in Sources */,
+				55A1833018FF251D0077211B /* ZenObject.m in Sources */,
 				55EEEACD18CF633500B179CF /* WelcomeViewController.m in Sources */,
-				55D0BCA018D9DDE800C2E2F8 /* ZenElementWater.m in Sources */,
-				55D0BC9C18D9DDE800C2E2F8 /* ZenElementEvent.m in Sources */,
-				55EEEAD318CF7A6500B179CF /* CreateAccountViewController.m in Sources */,
 				6F547DC818FDA1D30077884D /* CreateAccountView.m in Sources */,
-				55EEEADA18CF87A900B179CF /* PasswordViewController.m in Sources */,
+				55A1832B18FF251D0077211B /* ZenElementTable.m in Sources */,
+				55A1832918FF251D0077211B /* ZenElementLight.m in Sources */,
+				55A1833118FF251D0077211B /* ZenSmartPlug.m in Sources */,
 				55D0BCDB18DB6CF100C2E2F8 /* Reachability.m in Sources */,
-				55D0BC9818D9DDE800C2E2F8 /* ZenCamera.m in Sources */,
-				55EEEAD718CF863300B179CF /* ValidationViewController.m in Sources */,
+				55A1832E18FF251D0077211B /* ZenEventTable.m in Sources */,
 				6F547DD418FDB8160077884D /* ResetPasswordView.m in Sources */,
 				55D0BCA818D9DDF700C2E2F8 /* ZenNetwork.m in Sources */,
-				556CAB5A18E9C09B0015136E /* ZenElementTable.m in Sources */,
 				55D0BCD618DA469E00C2E2F8 /* ZenBT.m in Sources */,
 				55EEEAA418CF61E600B179CF /* ZenAppDelegate.m in Sources */,
-				55D0BCA118D9DDE800C2E2F8 /* ZenEventTable.m in Sources */,
 				6F547DD918FDB8D50077884D /* PasswordView.m in Sources */,
-				55D0BCA218D9DDE800C2E2F8 /* ZenUser.m in Sources */,
-				55D0BC9D18D9DDE800C2E2F8 /* ZenElementLight.m in Sources */,
-				55D0BC9F18D9DDE800C2E2F8 /* ZenElementTemp.m in Sources */,
 				6F547DC218FD8D6D0077884D /* LoginView.m in Sources */,
 				55EEEAA018CF61E600B179CF /* main.m in Sources */,
+				55A1832A18FF251D0077211B /* ZenElementMotion.m in Sources */,
+				55A1832D18FF251D0077211B /* ZenElementWater.m in Sources */,
 				6F85C9B318FDC4BC00CD2EF9 /* ValidationPendingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

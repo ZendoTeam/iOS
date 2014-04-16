@@ -6,19 +6,29 @@
 //  Copyright (c) 2014 Zendo. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "ZenObject.h"
 
-@interface ZenUser : NSObject
+// ZenUser - Base Class
+// Holds user information
 
-@property (retain, nonatomic) NSString* firstName;
-@property (retain, nonatomic) NSString* lastName;
-@property (retain, nonatomic) NSString* email;
-@property (retain, nonatomic) NSString* zipCode;
+@interface ZenUser : ZenObject
 
-@property (retain, nonatomic) NSString* role;
-@property (retain, nonatomic) UIImage*  image;
+-(NSString*) getFirstName;
+-(NSString*) getLastName;
+-(NSString*) getEmail;
+-(NSString*) getZipCode;
+-(NSString*) getImage;
+-(NSString*) getAccountType;
+-(NSString*) getAccountValid;
+-(NSDate*)   getAccountExpDate;
 
-@property (retain, nonatomic) NSString* accountType;
-@property (retain, nonatomic) NSDate*   expireDate;
+-(void) setFirstName:(NSString*)first;
+-(void) setLastName:(NSString*)last;
+-(void) setEmail:(NSString*)email;
+-(void) setZipCode:(NSString*)zip;
+-(void) setImage:(NSString*)name;
+-(void) setAccountType:(NSString*)type;
+-(void) setAccountValid:(NSString*)valid;
+-(void) setAccountExpDate:(NSDate*)date;
 
 @end

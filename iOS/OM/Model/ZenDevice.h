@@ -6,25 +6,41 @@
 //  Copyright (c) 2014 Zendo. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "ZenObject.h"
 
-@interface ZenDevice : NSObject
+// ZenDevice - Base Class
+// Holds common values for all devices
 
-@property (retain, nonatomic) NSString* uuidString;
-@property (retain, nonatomic) NSString* name;
+@interface ZenDevice : ZenObject
 
-@property (retain, nonatomic) NSString* location;
-@property (retain, nonatomic) NSString* sublocation;
-@property (retain, nonatomic) NSString* description;
-@property (retain, nonatomic) UIImage*  image;
+//Variable Values:
+-(NSString*) getName;
+-(NSString*) getLocation;
+-(NSString*) getSublocation;
+-(NSString*) getDescription;
 
-@property (retain, nonatomic) NSString* model_no;
-@property (retain, nonatomic) NSString* serial_no;
-@property (retain, nonatomic) NSString* firmware_ver;
+//Fixed Values:
+-(NSString*) getUDID;
+-(NSString*) getSerialNo;
+-(NSString*) getType;
+-(NSString*) getModelNo;
+-(NSDate*)   getInstallDate;
+-(NSString*) getHardwareVer;
+-(NSString*) getFirmwareVer;
+-(NSString*) getManufactName;
 
-@property (retain, nonatomic) NSString* ownerID;
-@property (nonatomic) Boolean status; // true = active, false = inactive
+-(void) setName:(NSString*)name;
+-(void) setLocation:(NSString*)location;
+-(void) setSublocation:(NSString*)sublocation;
+-(void) setDescription:(NSString*)description;
 
--(id)init;
+-(void) setUDID:(NSString*)udid;
+-(void) setSerialNo:(NSString*)serialno;
+-(void) setType:(NSString*)type;
+-(void) setModelNo:(NSString*)modelno;
+-(void) setInstallDate:(NSDate*)date;
+-(void) setHardwareVer:(NSString*)ver;
+-(void) setFirmwareVer:(NSString*)ver;
+-(void) setManufactName:(NSString*)name;
 
 @end

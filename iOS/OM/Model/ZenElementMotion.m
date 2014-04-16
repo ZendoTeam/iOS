@@ -8,12 +8,16 @@
 
 #import "ZenElementMotion.h"
 
+// ZenElementMotion - inherits all values from ZenElement
+// Common values for all Motion Elements
+
+//Variable Values:
+//NSString* const ZenMotionStatus              = @"ltStatus";
+
 @implementation ZenElementMotion
 
--(id)init {
-    
-    self = [super init];
-    
-    return self;
-}
+#pragma mark - getters
+
+#pragma mark - setters
+
 @end

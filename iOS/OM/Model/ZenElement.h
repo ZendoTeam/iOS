@@ -6,18 +6,28 @@
 //  Copyright (c) 2014 Zendo. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
 #import "ZenDevice.h"
 
-// BATTERY POWERED DEVICES
+// ZenElement inherits all values from ZenDevice
+// Common values for all battery powered bluetooth devices
 
 @interface ZenElement : ZenDevice
 
-@property (nonatomic)         NSInteger battery_lvl;
-@property (nonatomic)         NSInteger signalLvl;
+//Variable Values:
+-(int) getBatteryLvl;
+-(int) getSignalLvl;
+-(int) getIntervalDevice;
+-(NSString*) getBluetoothRSSI;
 
+//Fixed Values:
+-(NSString*) getBluetoothUDID;
 
-@property (retain, nonatomic) NSString* bluetooth_udid;
-@property (retain, nonatomic) NSString* bluetooth_rssi;
-@property (nonatomic)         CGFloat   intervalDevice;
+-(void) setBatteryLvl:(int)level;
+-(void) setSignalLvl:(int)level;
+-(void) setIntervalDevice:(int)interval;
+-(void) setBluetoothRSSI:(NSString*)rssi;
+
+-(void) setBluetoothUDID:(NSString*)udid;
 
 @end

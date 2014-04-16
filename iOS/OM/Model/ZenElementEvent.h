@@ -6,8 +6,7 @@
 //  Copyright (c) 2014 Zendo. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-#import "ZenElement.h"
+#import "ZenObject.h"
 
 typedef enum {
     kTemp   = 1,
@@ -25,18 +24,23 @@ typedef enum {
     kCritical = 4,
 } EventPriority;
 
-@interface ZenElementEvent : NSObject
+@interface ZenElementEvent : ZenObject
 
-@property (retain, nonatomic) NSString*     event_id;
-@property (retain, nonatomic) NSString*     user_id;
-@property (retain, nonatomic) NSDate*       date;
-@property (retain, nonatomic) NSString*     element_serial_no;
-@property (retain, nonatomic) NSData*       data;
-@property (nonatomic)         EventType     type;
-@property (nonatomic)         EventPriority priority;
+
+-(NSString*) getEventID;
+-(NSDate*)   getEventDate;
+-(NSString*) getEventUserID;
+-(NSString*) getEventElementID;
+-(NSData*)   getEventData;
+-(NSNumber*) getEventType;
+-(NSNumber*) getEventPriority;
+
+-(void) setEventID:(NSString*)value;
+-(void) setEventDate:(NSDate*)date;
+-(void) setEventUserID:(NSString*)value;
+-(void) setEventElementID:(NSString*)value;
+-(void) setEventData:(NSData*)data;
+-(void) setEventType:(NSNumber*)type;
+-(void) setEventPriority:(NSNumber*)priority;
 
 @end
-
-// System Messages (Push Notifs)
-// Cloud Events (History)
-// App Events (User)
